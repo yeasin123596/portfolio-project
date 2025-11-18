@@ -94,6 +94,13 @@ ul li a {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: white;
+    color: rgba(253, 110, 10, 1) ;
+    box-shadow: 0 0 10px rgba(253, 110, 10, 1);
+    transition: linear 0.27s;
+}
+
 /* Banner styles */
 
 .banner{
@@ -144,6 +151,13 @@ ul li a {
     background: transparent;
     margin-left: 36px;
     cursor: pointer;
+}
+
+.contact-btn:hover {
+    color: white;
+    background-color: rgba(253, 110, 10, 1);
+    transition: linear 0.27s;
+
 }
 
 /* main */
